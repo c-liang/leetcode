@@ -1,0 +1,27 @@
+[package]
+authors = ["cwl <773622153@qq.com>"]
+edition = "2018"
+name = "leetcode"
+version = "0.1.0"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+buy_sell_stock_with_transction_fee = {path = "./crates/algorithm/dynamic_programming/buy_sell_stock_with_transction_fee"}
+contains_duplicate = {path = "./crates/not_archived/easy/contains_duplicate"}
+dota2_senate = {path = "./crates/data_structure/deque/dota2_senate"}
+find_the_difference = {path = "./crates/not_archived/easy/find_the_difference"}
+group_anagrams = {path = "./crates/not_archived/middle/group_anagrams"}
+lazy_static = "1.4.0"
+lemonade_change = {path = "./crates/algorithm/greedy/lemonade_change"}
+min_cost_climbing_stairs = {path = "./crates/algorithm/dynamic_programming/min_cost_climbing_stairs"}
+monotone_increasing_digits = {path = './crates/algorithm/greedy/monotone_increasing_digits'}
+remove_duplicate_letters = {path = "./crates/data_structure/stack/remove_duplicate_letters"}
+roman_to_integer = {path = "./crates/not_archived/easy/roman_to_integer"}
+rotate_image = {path = "./crates/not_archived/middle/rotate_image"}
+rotate_list = {path = "./crates/data_structure/list/rotate_list"}
+serialize_and_deserialize_binary_tree = {path = "./crates/data_structure/tree/serialize_and_deserialize_binary_tree"}
+split_array_into_fibonacci_sequence = {path = "./crates/algorithm/search/backtrack/split_array_into_fibonacci_sequence"}
+unique_paths = {path = "./crates/algorithm/dynamic_programming/unique_paths"}
+wiggle_sequence = {path = "./crates/algorithm/dynamic_programming/wiggle_sequence"}
+word_pattern = {path = "./crates/not_archived/easy/word_pattern"}
