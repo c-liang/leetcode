@@ -12,6 +12,7 @@ buy_sell_stock_with_transction_fee = {path = "./crates/algorithm/dynamic_program
 contains_duplicate = {path = "./crates/not_archived/easy/contains_duplicate"}
 dota2_senate = {path = "./crates/data_structure/deque/dota2_senate"}
 find_the_difference = {path = "./crates/not_archived/easy/find_the_difference"}
+first_unique_character_in_a_string = {path = "./crates/not_archived/easy/first_unique_character_in_a_string"}
 group_anagrams = {path = "./crates/not_archived/middle/group_anagrams"}
 lazy_static = "1.4.0"
 lemonade_change = {path = "./crates/algorithm/greedy/lemonade_change"}
