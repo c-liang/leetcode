@@ -9,6 +9,7 @@ version = "0.1.0"
 [dependencies]
 binary_tree_zigzag_level_order_traversal = {path = "./crates/data_structure/tree/binary_tree_zigzag_level_order_traversal"}
 buy_sell_stock_with_transction_fee = {path = "./crates/algorithm/dynamic_programming/buy_sell_stock_with_transction_fee"}
+candy = {path = "./crates/not_archived/hard/candy"}
 contains_duplicate = {path = "./crates/not_archived/easy/contains_duplicate"}
 dota2_senate = {path = "./crates/data_structure/deque/dota2_senate"}
 find_the_difference = {path = "./crates/not_archived/easy/find_the_difference"}
