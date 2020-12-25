@@ -34,6 +34,13 @@ impl Solution {
 mod tests {
     #[test]
     fn it_works() {
-        assert_eq!(2 + 2, 4);
+        //解释:
+        //你有三个孩子和两块小饼干，3个孩子的胃口值分别是：1,2,3。
+        //虽然你有两块小饼干，由于他们的尺寸都是1，你只能让胃口值是1的孩子满足。
+        //所以你应该输出1。
+        assert_eq!(
+            super::Solution::find_content_children(vec![1, 2, 3], vec![1, 1]),
+            1
+        );
     }
 }
