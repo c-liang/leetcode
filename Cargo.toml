@@ -11,15 +11,15 @@ assign_cookies = {path = "./crates/algorithm/greedy/assign_cookies"}
 binary_tree_zigzag_level_order_traversal = {path = "./crates/data_structure/tree/binary_tree_zigzag_level_order_traversal"}
 buy_sell_stock_with_transction_fee = {path = "./crates/algorithm/dynamic_programming/buy_sell_stock_with_transction_fee"}
 candy = {path = "./crates/not_archived/hard/candy"}
-maximal_rectangle = {path = "./crates/not_archived/hard/maximal_rectangle"}
-
 contains_duplicate = {path = "./crates/not_archived/easy/contains_duplicate"}
 dota2_senate = {path = "./crates/data_structure/deque/dota2_senate"}
 find_the_difference = {path = "./crates/not_archived/easy/find_the_difference"}
 first_unique_character_in_a_string = {path = "./crates/not_archived/easy/first_unique_character_in_a_string"}
 group_anagrams = {path = "./crates/not_archived/middle/group_anagrams"}
+isomorphic_strings = {path = "./crates/not_archived/easy/isomorphic_strings"}
 lazy_static = "1.4.0"
 lemonade_change = {path = "./crates/algorithm/greedy/lemonade_change"}
+maximal_rectangle = {path = "./crates/not_archived/hard/maximal_rectangle"}
 min_cost_climbing_stairs = {path = "./crates/algorithm/dynamic_programming/min_cost_climbing_stairs"}
 monotone_increasing_digits = {path = './crates/algorithm/greedy/monotone_increasing_digits'}
 remove_duplicate_letters = {path = "./crates/data_structure/stack/remove_duplicate_letters"}
