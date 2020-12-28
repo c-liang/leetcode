@@ -8,6 +8,7 @@ version = "0.1.0"
 
 [dependencies]
 assign_cookies = {path = "./crates/algorithm/greedy/assign_cookies"}
+best_time_to_buy_and_sell_stock_IV = {path = "./crates/algorithm/dynamic_programming/best_time_to_buy_and_sell_stock_IV"}
 binary_tree_zigzag_level_order_traversal = {path = "./crates/data_structure/tree/binary_tree_zigzag_level_order_traversal"}
 buy_sell_stock_with_transction_fee = {path = "./crates/algorithm/dynamic_programming/buy_sell_stock_with_transction_fee"}
 candy = {path = "./crates/not_archived/hard/candy"}
