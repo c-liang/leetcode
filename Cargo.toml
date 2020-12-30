@@ -18,6 +18,7 @@ find_the_difference = {path = "./crates/not_archived/easy/find_the_difference"}
 first_unique_character_in_a_string = {path = "./crates/not_archived/easy/first_unique_character_in_a_string"}
 group_anagrams = {path = "./crates/not_archived/middle/group_anagrams"}
 isomorphic_strings = {path = "./crates/not_archived/easy/isomorphic_strings"}
+last_stone_weight = {path = "./crates/data_structure/heap/last_stone_weight"}
 lazy_static = "1.4.0"
 lemonade_change = {path = "./crates/algorithm/greedy/lemonade_change"}
 maximal_rectangle = {path = "./crates/not_archived/hard/maximal_rectangle"}
