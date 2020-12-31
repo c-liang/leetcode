@@ -24,6 +24,7 @@ lemonade_change = {path = "./crates/algorithm/greedy/lemonade_change"}
 maximal_rectangle = {path = "./crates/not_archived/hard/maximal_rectangle"}
 min_cost_climbing_stairs = {path = "./crates/algorithm/dynamic_programming/min_cost_climbing_stairs"}
 monotone_increasing_digits = {path = './crates/algorithm/greedy/monotone_increasing_digits'}
+non-overlapping_intervals = {path = "./crates/algorithm/dynamic_programming/non-overlapping_intervals"}
 patching_array = {path = "./crates/algorithm/greedy/patching_array"}
 remove_duplicate_letters = {path = "./crates/data_structure/stack/remove_duplicate_letters"}
 roman_to_integer = {path = "./crates/not_archived/easy/roman_to_integer"}
