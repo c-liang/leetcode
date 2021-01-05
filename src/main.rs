@@ -1,39 +1,29 @@
-pub fn erase_overlap_intervals(mut intervals: Vec<Vec<i32>>) -> i32 {
-    if intervals.is_empty() {
-        return 0;
+pub fn large_group_positions(s: String) -> Vec<Vec<i32>> {
+    if s.len() < 3 {
+        return vec![];
     }
-    //动态规划
-    intervals.sort_by(|a, b| a[0].cmp(&b[0]));
-    let mut dp = vec![1; intervals.len()];
-    for i in 1..intervals.len() {
-        for j in 0..=i {
-            if intervals[j][1] <= intervals[i][0] {
-                dp[i] = dp[i].max(dp[j] + 1);
+    let bytes = s.as_bytes();
+    let mut ans = vec![];
+    ans.push(vec![0, 1]);
+    let mut pre_c = bytes[0];
+    let mut start = 0;
+    let mut end = 0;
+    for i in 1..bytes.len() {
+        if bytes[i] == pre_c {
+            end = i;
+        } else {
+            if (end - start + 1) >= 3 {
+                ans.push(vec![start as i32, end as i32]);
             }
+            start = i;
+            end = i;
+            pre_c = bytes[i];
         }
     }
-    let mut max = 0;
-    for v in dp {
-        if v > max {
-            max = v;
-        }
+    if (end - start + 1) >= 3 {
+        ans.push(vec![start as i32, end as i32]);
     }
-    (intervals.len() - max) as i32
-}
-pub fn erase_overlap_intervals_(mut intervals: Vec<Vec<i32>>) -> i32 {
-    if intervals.is_empty() {
-        return 0;
-    }
-    intervals.sort_by(|a, b| a[1].cmp(&b[1]));
-    let mut ans = 1;
-    let mut right = intervals[0][1];
-    for i in 1..intervals.len() {
-        if intervals[i][0] >= right {
-            ans += 1;
-            right = intervals[i][1];
-        }
-    }
-    intervals.len() as i32 - ans
+    ans
 }
 
 fn main() {
